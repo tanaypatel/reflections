@@ -1,7 +1,12 @@
 What happens when you initialize a repository? Why do you need to do it?
 
+when you initialize a repository it creates a .get folder and will then store commits to it.
+
+
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+
+Staging area is a area which is between a normal file and commit. We can send files to staging area before we commit on them. 
 
 How can you use the staging area to make sure you have one commit per logical
 change?
