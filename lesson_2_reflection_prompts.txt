@@ -11,13 +11,23 @@ Staging area is a area which is between a normal file and commit. We can send fi
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+Staging area can hold files we want to commit, and then we can commit all files together in one commit.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+When we want to experiment with the code, we can keep the working version as master but experiment with the branch version.
+
 How do the diagrams help you visualize the branch structure?
+
+It helps figure out if there are any commits that are unreachable.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+Merges the two branches together.
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+automatic merging makes it easy to merge two branches but sometimes creates merge conflicts.
